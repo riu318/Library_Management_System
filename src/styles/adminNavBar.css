@@ -1,0 +1,86 @@
+.adminNavBar{
+    margin: 0px;
+    width: 100%;
+    height: 23vh;
+    position:fixed;
+    z-index:1;
+}
+.adminnav{
+    padding-top: 30px;
+    text-align: center;
+    height: 5vh;
+    color: white;
+    background-color: rgb(186, 111, 83);
+}
+.adminnav h1{
+    margin: 0;
+    font-size: 30px;
+    letter-spacing: 1px;
+    font-weight: lighter;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.navlogo{
+    display: flex;
+    height: 10vh;
+    justify-content: space-between;
+    background-color: #FDFDFD;
+}
+.navlogo img{
+    padding-left: 15vh;
+    margin: 1vh;
+    height: 7vh;
+    width: 8vh;
+}
+.navlogo h1{
+    padding-right: 110vh;
+    margin: 2vh;
+    font-size: 70px;
+    letter-spacing: 1px;
+    font-weight: lighter;
+    font-family: adobe-garamond-pro,sans-serif; 
+    /* color: linear-gradient( to bottom right, rgb(208, 153, 3),rgb(106, 22, 166)); */
+    color: rgb(208, 153, 3);
+}
+.navlogo h3{
+    padding-right: 10vh;
+    margin: 4vh;
+    font-size: 30px;
+    letter-spacing: 1px;
+    font-weight: light;
+    font-family: adobe-garamond-pro,sans-serif; 
+    color: rgb(82, 79, 79); 
+}
+.adnavbarlinks{
+    height: 8vh;
+    display: flex;
+    background-color: #fff;
+    border:1px solid whitesmoke;
+    box-shadow: 10px 0px 30px silver;
+    position: sticky;
+}
+  
+.adnavbarlinks ul{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.adnavbarlinks li{
+     display: flex;
+     margin: 20px;
+}
+.adnavbarlinks a{
+   font-family:  "Helvetica Neue",Helvetica,Arial,sans-serif;
+   color: #333;
+   text-decoration: none;
+   font-size: 30px;
+   font-weight:600;
+   letter-spacing: 2px;
+   margin: 20px 0px 20px 100px;
+   line-height: 15px;
+   transition: 1ms;
+}
+.adnavbarlinks a:hover{
+   padding: 0px 0px 60px 0px ;
+   border-bottom: 8px solid orangered;
+   width: max-content;
+}

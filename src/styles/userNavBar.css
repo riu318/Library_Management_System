@@ -1,0 +1,70 @@
+.userNavBar{
+    margin: 0px;
+    width: 100%;
+    height: 17vh; 
+    position: fixed;
+    z-index:1;
+}
+.usernav{
+    padding-top: 30px;
+    text-align: center;
+    height: 5vh;
+    color: white;
+    background-color: rgb(186, 111, 83);
+}
+.usernav h1{
+    margin: 0;
+    font-size: 30px;
+    letter-spacing: 1px;
+    font-weight: lighter;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.usnavbar{
+    display: flex;
+    height: 10vh;
+    background-color: #FDFDFD;
+    border: 2px solid whitesmoke ;
+    box-shadow: 10px 0px 30px silver;
+}
+.usnavlogo{
+    display: flex;
+}
+.usnavbar img{
+    padding-left: 15vh;
+    margin: 1vh;
+    height: 7vh;
+    width: 8vh;
+}
+.usnavbar h1{
+    padding-right: 70vh;
+    margin: 2vh;
+    font-size: 70px;
+    letter-spacing: 1px;
+    font-weight: lighter;
+    font-family: adobe-garamond-pro,sans-serif; 
+    color: rgb(208, 153, 3);
+    /*    color: linear-gradient( to bottom right, rgb(208, 153, 3),indigo); */
+}
+.usnavbarlinks ul{
+    display: flex;   
+}
+.usnavbarlinks li{
+     display: flex;
+     margin: 20px; 
+}
+.usnavbarlinks a{
+   font-family:  "Helvetica Neue",Helvetica,Arial,sans-serif;
+   color: #333;
+   text-decoration: none;
+   font-size: 30px;
+   font-weight:600;
+   letter-spacing: 2px;
+   margin: 20px 100px 20px 0px;
+   line-height: 30px;
+   transition: 1ms;
+}
+.usnavbarlinks a:hover{
+   padding: 0px 0px 60px 0px ;
+   border-bottom: 5px solid orangered;
+   width: max-content;
+}

@@ -1,0 +1,138 @@
+.adminhome{
+    margin: 0;
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+}
+.adminhomepage{
+    background-image: url('C:\Users\rinku\OneDrive\Desktop\JSPIDERS\reactClasses\project_LMS\public\images\admin_dashboard.jpg');
+    background-size:cover;
+    height: 100vh;
+    width: 100%;
+    box-sizing: border-box;
+    position: absolute;
+}
+.heading{
+    height: 25vh;
+    width: 120vh;
+    color: #303030;
+    background: rgba(255,255,255,.89);
+    box-shadow: 2px 2px 24px 0 rgb(0 0 0 / 10%);
+    margin-top: 40vh;
+    text-align: center;
+    padding: 1px;
+}
+.heading h1{
+    margin: 5vh;
+    font-family: adobe-garamond-pro,sans-serif;
+    font-weight: 400;
+    font-size: 150px;
+    letter-spacing: 2px;
+    border-bottom: 3px #EB9532 solid;
+    line-height: 13vh
+}
+.containers{
+    background-color: white;
+    width: 100vh;
+    height: 100vh;
+    margin-top: 100vh;
+    padding:  5vh 10vh;
+    display: flex;
+    flex-direction: column;
+    position: sticky;
+
+}
+
+.container1{
+    background-size: cover;
+    margin: 2vh 40vh;
+    height: 80vh;
+    width: 100vh;
+    position: absolute;
+    text-align:left;
+
+}
+.content1{
+    margin: 0px;
+    padding: 2vh 6vh 8vh;
+    background-color: whitesmoke;
+    border: 2px solid whitesmoke;
+    box-shadow:2px 2px 5px whitesmoke;
+    position: absolute;
+    top: 20vh;
+    left:15vh;
+    height: 30vh;
+    width: 60vh;
+    z-index: 1;
+    font-size:40px;
+    line-height: 5vh;
+}
+.container1 span{
+    font-size: 60px;
+    line-height: 96px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    border-bottom: 2px #EB9532 solid;
+    color: #303030;
+}
+.container2{
+    background-size: cover;
+    margin: 75vh 40vh;
+    height: 80vh;
+    width: 100vh;
+    position: absolute;
+    text-align:left;
+
+}
+.content2{
+    margin: 0px;
+    padding: 2vh 6vh 8vh;
+    background-color: whitesmoke;
+    border: 2px solid whitesmoke;
+    box-shadow:2px 2px 5px whitesmoke;
+    position: absolute;
+    top: 20vh;
+    left:15vh;
+    height: 30vh;
+    width: 60vh;
+    z-index: 1;
+    font-size:40px;
+    line-height: 5vh;
+}
+.container2 span{
+    font-size: 60px;
+    line-height: 96px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    border-bottom: 2px #EB9532 solid;
+    color: #303030;
+}
+.container3{
+    background-size: cover;
+    margin: 150vh 40vh;
+    height: 80vh;
+    width: 100vh;
+    position: absolute;
+    text-align:left;
+
+}
+.content3{
+    margin: 0px;
+    padding: 2vh 6vh 8vh;
+    background-color: whitesmoke;
+    border: 2px solid whitesmoke;
+    box-shadow:2px 2px 5px whitesmoke;
+    position: absolute;
+    top: 20vh;
+    left:15vh;
+    height: 30vh;
+    width: 60vh;
+    z-index: 1;
+    font-size:40px;
+    line-height: 5vh;
+}
+.container3 span{
+    font-size: 60px;
+    line-height: 96px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    border-bottom: 2px #EB9532 solid;
+    color: #303030;
+}
